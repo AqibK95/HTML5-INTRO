@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="audio-video.html">Media</a></li>
+            </ul>
+            
+        </nav>
+        <h2>Welcome to Jamal er Ma Pitha Ghor</h2>
+            
+        </header>
+    
+    <form>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        
+        <label for="email">Your email<input id="email" type="email" placeholder="Your email"></label>
+        <label for="mobile">Your Mobile Number<input id="mobile" type="number" placeholder="Your Mobile Number"></label>
+        <fieldset>
+            <legend>Pick one Pitha</legend>
+            <label for="">
+                <input type="radio" name="pitha" id="chitoy">
+                Chitoy
+            </label>
+            <label for="">
+                <input type="radio" name="pitha" id="Bhapa">
+                Bhapa
+            </label>
+            <label for="">
+                <input type="radio" name="pitha" id="Patisopta">
+                Patisopta
+            </label>
+            <label for="">
+                <input type="radio" name="pitha" id="Pakkan">
+                Pakkan
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select one or more Vortas</legend>
+            <label for="sorisa">
+                <input type="checkbox" name="vorta" id="sorisa">
+                Sorisa
+            </label>
+            <label for="sutki">
+                <input type="checkbox" name="vorta" id="sutki">
+                Sutki
+            </label>
+            <label for="narikel er sos">
+                <input type="checkbox" name="vorta" id="narikel er sos">
+                Narikel er Sause
+            </label>
+            <label for="daal">
+                <input type="checkbox" name="vorta" id="daal">
+                Daal Vorta
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Special Instruction
+            </legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="submit"> 
+        
+    </form>
+    
+</body>
+</html>

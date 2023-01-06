@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="/styles/nav.css">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+           border: 1px solid lightseagreen;
+           padding: 5px 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+    <nav>
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="form.html">Form</a><ul class="dropdown">
+                <li><a href="Home">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="audio-video.html">Media</a></li>
+            </ul>
+        </li>
+            <li><a href="semantic.html">Semantic</a>
+                <ul class="dropdown">
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="table.html">Table</a>
+                        <ul class="dropdown">
+                            <li><a href="Home">Home</a></li>
+                            <li><a href="table.html">Table</a></li>
+                            <li><a href="semantic.html">Semantic</a></li>
+                            <li><a href="audio-video.html">Media</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="semantic.html">Semantic</a></li>
+                    <li><a href="audio-video.html">Media</a></li>
+                </ul>
+            </li>
+            <li><a href="audio-video.html">Media</a></li>
+        </ul>
+        <h2>My Salary Sheet</h2>
+    </nav>
+
+        
+    </header>
+    <table>
+        <thead><tr>
+            <th>No</th>
+            <th>Full Name</th>
+            <th>Company</th>
+            <th>Salary</th>
+        </tr></thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Apple</td>
+                <td>1200$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lary Page</td>
+                <td>Google</td>
+                <td>1400$</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Jukerburg</td>
+                <td>Facebook</td>
+                <td>1500$</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
